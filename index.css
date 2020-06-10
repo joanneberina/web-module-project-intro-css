@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.nav-item1 {
+    width: 120px;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #FF764E;
+}
+
+.nav-item2 {
+    width: 120px;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #5ED3EB;
+}
+
+.nav-item3 {
+    width: 120px;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #FFCD69;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.header-img img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-title {
+    font-family: 'Chelsea Market', cursive;
+    padding: 20px;
+}
+
+.header-blurb {
+    width: 500px;
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-top {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #DDB9A3;
+}
+
+.blurb {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.blurb-img {
+    margin-top: 30px;
+}
+
+.blurb-img img {
+    width: 100px;
+}
+
+.blurb-text {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+span {
+    font-weight: 700;
+}
+
+.footer-img {
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    padding-top: 100px;
+    background-image: url("assets/footer_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: #F9E7DC;
+    margin: 0;
+}
+
+.nav-bottom {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 16px;
+}
